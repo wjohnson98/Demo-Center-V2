@@ -820,6 +820,11 @@
             box-shadow: 0 4px 16px rgba(255, 215, 68, 0.3);
         }
 
+        .path-card-fixed:hover {
+            transform: translateY(-6px) !important;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25) !important;
+        }
+
         /* Coming Soon State */
         .coming-soon-state {
             text-align: center;
@@ -1326,7 +1331,7 @@
 
         <!-- Main Content Area -->
         <main class="main-content">
-            <div class="content-body" style="padding: 24px 48px;">
+            <div class="content-body" style="padding: 0;">
                 <!-- Welcome Page Content -->
                 <div id="welcomeContent">
                     <!-- Path Selection Phase -->
@@ -1497,7 +1502,7 @@
                 </div>
 
                 <!-- Demo Content Area (hidden initially) -->
-                <div id="demoContent" style="display: none;">
+                <div id="demoContent" style="display: none; padding: 24px 48px;">
                     <!-- Status Indicator -->
                     <div class="status-indicator" id="statusIndicator">
                         <div class="status-dot status-interactive" id="statusDot"></div>
